@@ -228,8 +228,9 @@ permalink: /
         </ul>
         <p class="text-muted small mb-0">&copy; {{ site.name }} {{ site.description }} {{ 'now' | date: "%Y" }}</p>
       </br>
-        <p class="text-muted small mb-0"><i>{{ site.github.build_revision | slice: 0, 6}}</i> kodlu son güncelleme {{ site.date | date_to_string }}
-}} tarihinde yapıldı.</p>
+        <p class="text-muted small mb-0">
+          <i> {{ site.github.build_revision | slice: 0, 6 }} </i> kodlu son güncelleme {{ site.date }} tarihinde yapıldı.
+        </p>
       </div>
     </footer>
 
