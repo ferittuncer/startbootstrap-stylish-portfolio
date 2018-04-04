@@ -4,11 +4,15 @@ description: "Sanat Atölyesi"
 titlecolor: "white"
 google_maps_url: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d781.0760808874123!2d27.11706582925469!3d38.457534998727574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14bbd9c854d73cf7%3A0xeea7ba3458975ad9!2sTuna+Mahallesi%2C+Salah+Birsel+Sk.+32+A%2C+35600+Kar%C5%9F%C4%B1yaka%2F%C4%B0zmir!5e0!3m2!1sen!2str!4v1522865719138"
 
+# Renk paleti
+
+dugme: "#1d809f"
+dugme_golge: "#155d74"
+h3_renk: "#ecb807"
+
+
 
 # Delete the lines you don't need
 # about 5 elements are recomended
 facebook_pagename: Turkuvaz-Sanat-Atölyesi/136601137070153
 instagram_username: turkuvazsanat
-
-
-
