@@ -45,10 +45,13 @@
                 <a class="js-scroll-trigger" href="#services">Faaliyetler</a>
             </li>
             <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#nota-arsivi">Nota Arşivi</a>
+            </li>
+            <li class="sidebar-nav-item">
                 <a class="js-scroll-trigger" href="#portfolio">Galeri</a>
             </li>
             <li class="sidebar-nav-item">
-                <a class="js-scroll-trigger" href="#contact">İletişim</a>
+                <a class="js-scroll-trigger" href="#call-to-action">İletişim</a>
             </li>
         </ul>
     </nav>
@@ -239,7 +242,7 @@
 
 
     <!-- Callout -->
-    <section class="callout">
+    <section class="callout" id="nota-arsivi">
         <div class="container text-center">
             <h2 class="mx-auto mb-5">Nota Arşivi</h2>
             <a class="btn btn-primary btn-xl" href="https://www.dropbox.com/sh/ia3n4ejlgwh9rtv/AAD0f-OA5NNQTQ6hL_kkaacla?dl=0">Arşive gidin</a>
@@ -302,21 +305,23 @@
         </div>
     </section>
 
-
+    <!-- Call to Action -->
+    <section class="content-section bg-primary text-white" id="call-to-action">
+        <div class="container text-center">
+            <h2 class="mb-4">Merak ettiğiniz herhangi bi şey için...</h2>
+            <a href="tel:{{ site.ozgurumutlu_tel }}" class="btn btn-xl btn-light">
+                <i class="fa fa-phone"></i> {{ site.ozgurumutlu_tel }}
+            </a>
+            <a href="https://api.whatsapp.com/send?phone={{site.ozgurmutlu_tel}}" class="btn btn-xl btn-light">
+              <i class="fa fa-whatsapp"></i> {{site.ozgurmutlu_tel}}
+            </a>
+            <a href="mailto:{{ site.email }}" class="btn btn-xl btn-light "><i class="fa fa-envelope"></i> turkuvazsanat@gmail.com</a>
+        </div>
+    </section>
 
 
     <!-- Map -->
     <section id="contact" class="map">
-      <!-- Call to Action -->
-      <section class="content-section bg-primary text-white">
-          <div class="container text-center">
-              <h2 class="mb-4">Merak ettiğiniz herhangi bi şey için...</h2>
-              <a href="tel:{{ site.tel }}" class="btn btn-xl btn-light">
-                  <i class="fa fa-phone"></i> 542 546 42 77
-              </a>
-              <a href="mailto:{{ site.email }}" class="btn btn-xl btn-dark"><i class="fa fa-envelope"></i> turkuvazsanat@gmail.com</a>
-          </div>
-      </section>
         <iframe src="{{site.google_maps_url}}" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
         <br/>
         <small>
