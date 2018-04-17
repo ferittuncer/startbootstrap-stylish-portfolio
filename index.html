@@ -1,89 +1,77 @@
---- ---
+---
+---
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117589116-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="{{site.description}}">
+    <meta name="author" content="author">
 
-    gtag('config', 'UA-117589116-1');
-  </script>
+    <title>{{site.title}} {{site.subtitle}}</title>
 
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="{{site.description}}">
-  <meta name="author" content="author">
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
-  <title>{{site.title}} {{site.subtitle}}</title>
-
-  <!-- Bootstrap Core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom Fonts -->
-  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
-
-  <!-- Custom CSS -->
-  <link href="css/stylish-portfolio.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
 
 </head>
 
 <body id="page-top">
-  <!-- Navigation -->
-  <a class="menu-toggle rounded" href="#">
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
         <i class="fa fa-bars"></i>
     </a>
-  <nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      <li class="sidebar-brand">
-        <a class="js-scroll-trigger" href="#page-top">{{ site.title }}</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#page-top">Girizgâh</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#about">Hakkında</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#services">Faaliyetler</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#nota-arsivi">Nota Arşivi</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#portfolio">Galeri</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#call-to-action">İletişim</a>
-      </li>
-      <li class="sidebar-nav-item">
-        <a class="js-scroll-trigger" href="#contact">Ulaşım</a>
-      </li>
-    </ul>
-  </nav>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand">
+                <a class="js-scroll-trigger" href="#page-top">{{ site.title }}</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#page-top">Girizgâh</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#about">Hakkında</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#services">Faaliyetler</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#nota-arsivi">Nota Arşivi</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#portfolio">Galeri</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#call-to-action">İletişim</a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a class="js-scroll-trigger" href="#contact">Ulaşım</a>
+            </li>
+        </ul>
+    </nav>
 
-  <!-- Header -->
-  <header class="masthead d-flex">
-    <div class="container text-center my-auto">
-      <h1 class="mb-1" style="color:{{ site.titlecolor }}">{{ site.title }} {{site.subtitle}}</h1>
-      <h3 class="mb-5">
+    <!-- Header -->
+    <header class="masthead d-flex">
+        <div class="container text-center my-auto">
+            <h1 class="mb-1" style="color:{{ site.titlecolor }}">{{ site.title }} {{site.subtitle}}</h1>
+            <h3 class="mb-5">
           <em style="color:{{ site.titlecolor }}">Hoşgeldiniz!</em>
         </h3>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Tanışalım mı?</a>
-    </div>
-    <div class="overlay"></div>
-  </header>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Tanışalım mı?</a>
+        </div>
+        <div class="overlay"></div>
+    </header>
 
-  <!-- About
+    <!-- About
     <section class="content-section bg-light" id="about">
       <div class="container text-center">
         <div class="row">
@@ -96,184 +84,184 @@
       </div>
     </section> -->
 
-  <!-- Team -->
-  <section class="content-section bg-light" id="about">
-    <div class="container text-center">
-      <div class="row">
-        <div class="mx-auto content-section-heading">
-          <h3 class="text-secondary mb-0">Kadromuz</h3>
-          <h2 class="mb-5">Kurucular</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/ozgurmutlu.jpg" alt="">
-            <h4>Özgür Mutlu</h4>
-            <p class="text-muted">Kurucu - Bağlama ve Ud Atölye Eğitmeni</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="tel:{{site.ozgurmutlu_tel}}">
-                    <i class="fa fa-phone"></i>
-                  </a>
-              </li>
-            </ul>
+    <!-- Team -->
+    <section class="content-section bg-light"  id="about">
+      <div class="container text-center">
+        <div class="row">
+          <div class="mx-auto content-section-heading">
+            <h3 class="text-secondary mb-0">Kadromuz</h3>
+            <h2 class="mb-5">Kurucular</h2>
           </div>
         </div>
-        <div class="col-sm-6">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/ozgurumutlu.jpg" alt="">
-            <h4>Özgür Ümütlü</h4>
-            <p class="text-muted">Kurucu - Bağlama ve Ud Atölye Eğitmeni</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="tel:{{site.ozgurumutlu_tel}}">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/ozgurmutlu.jpg" alt="">
+              <h4>Özgür Mutlu</h4>
+              <p class="text-muted">Kurucu - Bağlama ve Ud Atölye Eğitmeni</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="tel:{{site.ozgurmutlu_tel}}">
                     <i class="fa fa-phone"></i>
                   </a>
-              </li>
-            </ul>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </div>
-      <br/>
-      <div class="row">
-        <div class="mx-auto content-section-heading">
-          <h2 class="mb-5">Eğitmenler</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/omer.jpg" alt="">
-            <h4>Ömer Yüksel Çankırlar</h4>
-            <p class="text-muted">Gitar Eğitmeni</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="tel:{{site.omeryukselcankirlar_tel}}">
+          <div class="col-sm-6">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/ozgurumutlu.jpg" alt="">
+              <h4>Özgür Ümütlü</h4>
+              <p class="text-muted">Kurucu - Bağlama ve Ud Atölye Eğitmeni</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="tel:{{site.ozgurumutlu_tel}}">
                     <i class="fa fa-phone"></i>
                   </a>
-              </li>
-            </ul>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="col-sm-6">
-          <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/aykut.jpg" alt="">
-            <h4>Aykut Uçakçı</h4>
-            <p class="text-muted">Klarnet Eğitmeni</p>
-            <ul class="list-inline social-buttons">
-              <li class="list-inline-item">
-                <a href="tel:{{site.aykutucakci_tel}}">
+        <br/>
+        <div class="row">
+          <div class="mx-auto content-section-heading">
+            <h2 class="mb-5">Eğitmenler</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/omer.jpg" alt="">
+              <h4>Ömer Yüksel Çankırlar</h4>
+              <p class="text-muted">Gitar Eğitmeni</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="tel:{{site.omeryukselcankirlar_tel}}">
                     <i class="fa fa-phone"></i>
                   </a>
-              </li>
-            </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="team-member">
+              <img class="mx-auto rounded-circle" src="img/team/aykut.jpg" alt="">
+              <h4>Aykut Uçakçı</h4>
+              <p class="text-muted">Klarnet Eğitmeni</p>
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="tel:{{site.aykutucakci_tel}}">
+                    <i class="fa fa-phone"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
 
 
-  </section>
+    </section>
 
-  <!-- Services -->
-  <section class="content-section bg-primary text-white text-center" id="services">
-    <div class="container">
-      <div class="content-section-heading">
-        <h3 class="text-secondary mb-0">Faaliyetlerimiz</h3>
-        <h2 class="mb-5">Müzik Faaliyetleri</h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
+    <!-- Services -->
+    <section class="content-section bg-primary text-white text-center" id="services">
+      <div class="container">
+        <div class="content-section-heading">
+          <h3 class="text-secondary mb-0">Faaliyetlerimiz</h3>
+          <h2 class="mb-5">Müzik Faaliyetleri</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
                 <img src="img/my/svg/002-music-3.svg" width="65rem" height="65rem">
             </span>
-          <h4>
+            <h4>
               <strong>Bağlama</strong>
             </h4>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
               <img src="img/my/svg/006-inclined-mandolin.svg" width="65rem" height="65rem">
             </span>
-          <h4>
+            <h4>
               <strong>Ud</strong>
             </h4>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
               <img src="img/my/svg/008-jazz-guitar.svg" width="65rem" height="65rem">
             </span>
-          <h4>
+            <h4>
               <strong>Gitar</strong>
             </h4>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <span class="service-icon rounded-circle mx-auto mb-3">
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <span class="service-icon rounded-circle mx-auto mb-3">
               <img src="img/my/svg/009-inclined-cello.svg" width="65rem" height="65rem">
             </span>
-          <h4>
+            <h4>
               <strong>Keman</strong>
             </h4>
+          </div>
         </div>
-      </div>
-      <br/>
-      <br/>
-      <div class="row">
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
+        <br/>
+        <br/>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
               <img src="img/my/svg/007-inclined-clarinet.svg" width="65rem" height="65rem">
             </span>
-          <h4>
+            <h4>
               <strong>Klarnet</strong>
             </h4>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
               <img src="img/my/svg/001-music-4.svg" width="65rem" height="65rem">
             </span>
-          <h4>
+            <h4>
               <strong>Piyano</strong>
             </h4>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-          <span class="service-icon rounded-circle mx-auto mb-3">
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <span class="service-icon rounded-circle mx-auto mb-3">
               <img src="img/my/svg/005-music.svg" width="65rem" height="65rem">
             </span>
-          <h4>
+            <h4>
               <strong>Şan ve Solfej</strong>
             </h4>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <span class="service-icon rounded-circle mx-auto mb-3">
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <span class="service-icon rounded-circle mx-auto mb-3">
               <img src="img/my/svg/004-music-1.svg" width="65rem" height="65rem">
             </span>
-          <h4>
+            <h4>
               <strong>Müzik Bölümlerine Hazırlk</strong>
             </h4>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
 
-  <!-- Callout -->
-  <section class="callout" id="nota-arsivi">
-    <div class="container text-center">
-      <h2 class="mx-auto mb-5">Nota Arşivi</h2>
-      <a class="btn btn-primary btn-xl" href="https://www.dropbox.com/sh/ia3n4ejlgwh9rtv/AAD0f-OA5NNQTQ6hL_kkaacla?dl=0">Arşive gidin</a>
-    </div>
-  </section>
+    <!-- Callout -->
+    <section class="callout" id="nota-arsivi">
+        <div class="container text-center">
+            <h2 class="mx-auto mb-5">Nota Arşivi</h2>
+            <a class="btn btn-primary btn-xl" href="https://www.dropbox.com/sh/ia3n4ejlgwh9rtv/AAD0f-OA5NNQTQ6hL_kkaacla?dl=0">Arşive gidin</a>
+        </div>
+    </section>
 
-  <!-- Portfolio -->
-  <section class="content-section" id="portfolio">
-    <div class="container">
-      <div class="content-section-heading text-center">
-        <h3 class="text-secondary mb-0">Galeri</h3>
-        <h2 class="mb-5">Atölyemizden Kareler</h2>
-      </div>
-      <div class="row no-gutters">
-        <div class="col-lg-6">
-          <a class="portfolio-item">
+    <!-- Portfolio -->
+    <section class="content-section" id="portfolio">
+        <div class="container">
+            <div class="content-section-heading text-center">
+                <h3 class="text-secondary mb-0">Galeri</h3>
+                <h2 class="mb-5">Atölyemizden Kareler</h2>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-lg-6">
+                    <a class="portfolio-item">
                         <span class="caption">
                 <span class="caption-content">
                   <h2>Muhabbet?</h2>
@@ -282,9 +270,9 @@
                         </span>
                         <img class="img-fluid" src="img/sohbet.jpg" alt="">
                     </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item">
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item">
                         <span class="caption">
                 <span class="caption-content">
                   <h2>İcra?</h2>
@@ -293,9 +281,9 @@
                         </span>
                         <img class="img-fluid" src="img/icra.jpg" alt="">
                     </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item">
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item">
                         <span class="caption">
                 <span class="caption-content">
                   <h2>Piano yok mu?</h2>
@@ -304,9 +292,9 @@
                         </span>
                         <img class="img-fluid" src="img/piano.jpg" alt="">
                     </a>
-        </div>
-        <div class="col-lg-6">
-          <a class="portfolio-item">
+                </div>
+                <div class="col-lg-6">
+                    <a class="portfolio-item">
                         <span class="caption">
                 <span class="caption-content">
                   <h2>Atamız?</h2>
@@ -315,39 +303,39 @@
                         </span>
                         <img class="img-fluid" src="img/ofis.jpg" alt="">
                     </a>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Call to Action -->
-  <section class="content-section bg-primary text-white" id="call-to-action">
-    <div class="container text-center">
-      <h2 class="mb-4">Merak ettiğiniz herhangi bi şey için...</h2>
-      <a href="tel:{{ site.ozgurumutlu_tel }}" class="btn btn-xl btn-light">
+    <!-- Call to Action -->
+    <section class="content-section bg-primary text-white" id="call-to-action">
+        <div class="container text-center">
+            <h2 class="mb-4">Merak ettiğiniz herhangi bi şey için...</h2>
+            <a href="tel:{{ site.ozgurumutlu_tel }}" class="btn btn-xl btn-light">
                 <i class="fa fa-phone"></i> {{ site.ozgurumutlu_tel }}
             </a>
-      <a href="https://api.whatsapp.com/send?phone={{site.ozgurmutlu_tel}}" class="btn btn-xl btn-light">
+            <a href="https://api.whatsapp.com/send?phone={{site.ozgurmutlu_tel}}" class="btn btn-xl btn-light">
               <i class="fa fa-whatsapp"></i> {{site.ozgurmutlu_tel}}
             </a>
-      <a href="mailto:{{ site.email }}" class="btn btn-xl btn-light "><i class="fa fa-envelope"></i> turkuvazsanat@gmail.com</a>
-    </div>
-  </section>
+            <a href="mailto:{{ site.email }}" class="btn btn-xl btn-light "><i class="fa fa-envelope"></i> turkuvazsanat@gmail.com</a>
+        </div>
+    </section>
 
 
-  <!-- Map -->
-  <section id="contact" class="map">
-    <iframe src="{{site.google_maps_url}}" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-    <br/>
-    <small>
+    <!-- Map -->
+    <section id="contact" class="map">
+        <iframe src="{{site.google_maps_url}}" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <br/>
+        <small>
         <a href="{{site.google_maps_url}}"></a>
       </small>
-  </section>
+    </section>
 
-  <!-- Footer -->
-  <footer class="footer text-center">
-    <div class="container">
-      <ul class="list-inline mb-5">
+    <!-- Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+          <ul class="list-inline mb-5">
         <li class="list-inline-item">
           <a class="social-link rounded-circle text-white mr-2" href="https://www.facebook.com/pages/{{site.facebook_pagename}}">
             <i class="icon-social-facebook"></i>
@@ -363,34 +351,34 @@
             <i class="icon-social-instagram"></i>
           </a>
         </li>
-      </ul>
-      <p class="text-muted small mb-0">&copy; {{ site.title }} {{ site.subtitle }} {{ 'now' | date: "%Y" }}</p>
-      <br/>
-      <p class="text-muted small mb-0">
-        <i> {{ site.github.build_revision | slice: 0, 6 }} </i> kodlu <a href="https://github.com/ferittuncer/turkuvaz/commit/{{site.github.build_revision}}">son güncelleme</a> {{ site.time }} tarihinde yapıldı.
-      </p>
-      <br/>
-      <p class="text-muted small mb-0">
-        Instrument icons designed by Freepik from Flaticon.
-      </p>
+        </ul>
+            <p class="text-muted small mb-0">&copy; {{ site.title }} {{ site.subtitle }} {{ 'now' | date: "%Y" }}</p>
+            <br/>
+            <p class="text-muted small mb-0">
+                <i> {{ site.github.build_revision | slice: 0, 6 }} </i> kodlu <a href="https://github.com/ferittuncer/turkuvaz/commit/{{site.github.build_revision}}">son güncelleme</a> {{ site.time }} tarihinde yapıldı.
+            </p>
+            <br/>
+            <p class="text-muted small mb-0">
+              Instrument icons designed by Freepik from Flaticon.
+            </p>
 
-    </div>
-  </footer>
+        </div>
+    </footer>
 
-  <!-- Scroll to Top Button-->
-  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
         <i class="fa fa-angle-up"></i>
     </a>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  <!-- Custom scripts for this template -->
-  <script src="js/stylish-portfolio.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.js"></script>
 
 </body>
 
